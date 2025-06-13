@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curiosidades - Barbie e as Três Mosqueteiras</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/customcuriosidades.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-barbie">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/barbielogo.png" alt="Barbie e as Três Mosqueteiras" class="img-fluid" style="height: 60px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="elenco.html">Elenco</a></li>
+          <li class="nav-item"><a class="nav-link" href="personagens.html">Personagens</a></li>
+          <li class="nav-item"><a class="nav-link active" href="curiosidades.html">Curiosidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Imagens</a></li>
+          <li class="nav-item"><a class="nav-link" href="trilha.html">Trilha Sonora</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Curiosidades do Filme</h1>
+
+    <!-- Alerta -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      Confira abaixo curiosidades sobre o filme!
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <img src="img/barbie-logo-png-08.png" class="img-fluid mx-auto d-block" id="silhueta" style="max-width: 200px;" alt="logo arbie">
+
+
+    <!-- Botão para abrir collapse -->
+    <div class="text-center mb-4">
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#curiosidadesLista">
+        Ver Curiosidades
+      </button>
+    </div>
+
+    <!-- Collapse com list group -->
+    <div class="collapse" id="curiosidadesLista">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">O filme foi lançado diretamente em DVD em 2009.</li>
+        <li class="list-group-item">Aramina menciona duas falas de "Romeu e Julieta".</li>
+        <li class="list-group-item">A história é inspirada livremente no romance "Os Três Mosqueteiros", de Alexandre Dumas.</li>
+        <li class="list-group-item">O pai de Corinne é D'Artagnan, o protagonista de "Os Três Mosqueteiros."</li>
+        <li class="list-group-item">O filme vendeu mais de 1.293.938 DVDs.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-barbie text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Barbie e as Três Mosqueteiras</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
